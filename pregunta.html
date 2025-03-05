@@ -5,10 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pregunta</title>
     <link rel="stylesheet" href="style.css">
-   
-</head>
+</head>   
 <body>
     <header>
+       
+<button id="modo-toggle">Cambiar a modo oscuro</button>
+
         <nav>
             <ul>
                 <li><a href="index.html">Inicio</a></li>
@@ -20,11 +22,79 @@
     <main>
         <h1>Página de Preguntas</h1>
         <ul class="lista-preguntas">
-            <li>¿Cuál es tu color favorito?</li>
-            <li>¿Cuál es tu comida preferida?</li>
-            <li>¿Qué música te gusta escuchar?</li>
-            <li>¿Cuál es tu hobby favorito?</li>
+            <li>
+                <p>¿Que es HTML y cuál es su función en el desarrollo web?</p>
+                <button class="btn-respuesta">Ver respuesta</button>
+                <div class="respuesta">Lenguaje de hipertexto se utiliza para dar estructura a una página web.</div>
+            </li>
+            <li>
+                <p>¿Qué son las etiquetas HTML y cómo se utilizan ?</p>
+                <button class="btn-respuesta">Ver respuesta</button>
+                <div class="respuesta">Las etiquetas HTML  son el lenguaje utilizado para estructurar y definir el contenido en un documento HTML.</div>
+            </li>
+            <li>
+                <p>Proporciona ejemplos de algunas de las etiquetas HTML más comunes</p>
+                <button class="btn-respuesta">Ver respuesta</button>
+                <div class="respuesta">-body: para el contenido.<br><br>-head: para información sobre el docuemento.<br><br>-div: división dentro del contenido.<br><br>-a: para enlaces.<br><br>-strong: para poner el texto en negrita.<br><br>-br: para saltos de lineas.<br><br>-H1...H6: para titulos dentro del contenido.<br><br>-img: para añadir imagenes al documento.</div>
+            </li>
+            <li>
+                <p>¿Qué es CSS  y cómo se utiliza para dar estilo a una página web?</p>
+                <button class="btn-respuesta">Ver respuesta</button>
+                <div class="respuesta">Hojas de estilo en cascada, CSS se utiliza para dar estilo al contenido de una página web añadiendo elementos de diseño como colores, fuentes y espaciado.</div>
+            </li>
+            <li>
+                <p>¿Cuáles son las propiedades más importantes de CSS?</p>
+                <button class="btn-respuesta">Ver respuesta</button>
+                <div class="respuesta">-Font-family: Define la familia tipográfica.<br><br>-Font-size: Define el tamaño de la fuente y el valor se puede escribir en pixels<br><br>-Color: Define el color de la tipografía.<br><br>-Width: Define el ancho de un elemento, el valor se puede escribir en pixels, ems o porcentaje.<br><br>-Max-width o min-width: Definen el ancho máximo o minimo de un elemento.<br><br>-Height: Define el alto de un elemento.<br><br>-Max-height o min-height: Define el alto maximo o minimo de un elemento.<br><br>-Padding: Es la distancia desde el borde de un elemto hasta su contenido.<br><br>-Margin: Es la distancia entre un elemento y otro.<br><br>-Border: Define el borde de un elemento, su color y grosor<br><br>-Background: Define los fondos de un objeto.El fondo puede ser una imagen o un color</div>
+            </li>
+            <li>
+                <p>¿Explica el modelo de caja (box model) en CSS?</p>
+                <button class="btn-respuesta">Ver respuesta</button>
+                <div class="respuesta">El modelo de caja CSS es un módulo CSS que define cajas rectangulares, incluyendo sus rellenos y márgenes, que son generadas para los elementos y que se disponen de acuerdo al modelo de formato visual.</div>
+            </li>
+            <li>
+                <p>¿Qué es el diseño responsivo y cómo se logra con CSS?</p>
+                <button class="btn-respuesta">Ver respuesta</button>
+                <div class="respuesta">El diseño responsivo funciona mediante el uso de diseños flexibles, imágenes y consultas de medios CSS para ajustar el aspecto de un sitio web en función del tamaño de la pantalla.</div>
+            </li>
+
+            <h1>Página de Preguntas</h1>
+
+            <li>
+                <p>¿Qué es JavaScript y cómo se integra en el desarrollo web?</p>
+                <button class="btn-respuesta">Ver respuesta</button>
+                <div class="respuesta">JavaScript es un lenguaje de programación que los desarrolladores utilizan para hacer páginas web interactivas. Desde actualizar fuentes de redes sociales a mostrar animaciones y mapas interactivos, las funciones de JavaScript pueden mejorar la experiencia del usuario de un sitio web.</div>
+            </li>
+            <li>
+                <p>Explica cómo javaScript interactua con el HTML y CSS a través del DOM(Document Object Model)</p>
+                <button class="btn-respuesta">Ver respuesta</button>
+                <div class="respuesta">El DOM en JavaScript es uno de los conceptos clave para desarrollar aplicaciones web interactivas. Es la representación estructurada de un documento HTML o XML en forma de árbol, lo que permite a los desarrolladores manipular y gestionar la estructura, el estilo y el contenido de una página web de forma dinámica.</div>
+            </li>
+            <li>
+                <p>¿Proporciona ejemplos de cómo JavaScript puede hacer que una página web sea interactiva ?</p>
+                <button class="btn-respuesta">Ver respuesta</button>
+                <div class="respuesta">cuando haces clic en un botón y aparece un mensaje, eso es JavaScript en acción. Puede gestionar todo, desde tareas sencillas, como cambiar el color del texto cuando pasas el cursor sobre él, hasta acciones más complejas, como validar las entradas de un formulario o crear juegos interactivos.</div>
+            </li>
+            <li>
+                <p>¿Qué es git  y por qué es importrante  para el desarrollo web?</p>
+                <button class="btn-respuesta">Ver respuesta</button>
+                <div class="respuesta">Git es un excelente recurso para el desarrollo web, ya que te permite optimizar las actualizaciones en vivo además de proporcionar una copia de los archivos de tu sitio web.</div>
+            </li>
+            <li>
+                <p>Explica cómo Git se usa para el control de versiones en proyectos de desa web</p>
+                <button class="btn-respuesta">Ver respuesta</button>
+                <div class="respuesta">Si trabajas en un proyecto a lo largo del tiempo, es posible que quieras realizar un seguimiento de los cambios que se realizaron, quién los realizó y cuándo.</div>
+            </li>
+            <li>
+                <p>¿Qué es GitHub y cómo facilita la colaboración en proyectos web?</p>
+                <button class="btn-respuesta">Ver respuesta</button>
+                <div class="respuesta">GitHub es un servicio basado en la nube que aloja un sistema de control de versiones (VCS) llamado Git. Éste permite a los desarrolladores colaborar y realizar cambios en proyectos compartidos, a la vez que mantienen un seguimiento detallado de su progreso.</div>
+            </li>
         </ul>
     </main>
+
+    <button id="flechaArriba" class="flecha-arriba">&#8593;</button>
+
+    <script src="interacciones.js"></script>
 </body>
 </html>

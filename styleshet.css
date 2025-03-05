@@ -1,26 +1,80 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('The-Most-Commonly-Asked-HTML-Interview-Questions-.avif'); 
+    background-size: cover; 
+    background-position: center; 
+    background-attachment: fixed; 
+}
+
 header {
-    background-color: #d9d9d9; /* Color pálido */
+    background-color: rgba(217, 217, 217, 0.8); 
     padding: 15px 0;
 }
- 
+
 nav ul {
     list-style: none;
     padding: 0;
     margin: 0;
     text-align: center;
 }
+
 nav ul li {
     display: inline;
     margin: 0 20px;
 }
- 
+
 nav ul li a {
     color: #333;
     text-decoration: none;
     font-size: 18px;
     font-weight: bold;
 }
- 
+
 nav ul li a:hover {
     text-decoration: underline;
+}
+
+.bienvenida {
+    padding: 50px 20px;
+    text-align: center;
+    color: white; 
+    background-color: rgba(250, 226, 226, 0.5); 
+    border-radius: 10px;
+    margin-top: 50px;
+}
+
+h1 {
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    color: #e2dada;
+    animation: rebote 1s infinite; 
+}
+
+p {
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    color: #e2dada;
+}
+
+@keyframes rebote {
+    0% {
+        transform: translateY(0);
+    }
+    30% {
+        transform: translateY(-10px);
+    }
+    50% {
+        transform: translateY(0);
+    }
+    70% {
+        transform: translateY(-10px);
+    }
+    100% {
+        transform: translateY(0);
+    }
 }
